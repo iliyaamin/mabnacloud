@@ -6,6 +6,8 @@ npm install pinia @pinia/nuxt @nuxtjs/composition-api
 
 
 #طریقه دیگر برای پیاده سازی پروژه
+
+
 یکی از روشهای مناسب برای پیاده سازی احراز هویت استفاده از
 nuxt/auth middleware
 و بهره مندی از استراتژی لوکال است
