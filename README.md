@@ -5,11 +5,12 @@ npm init nuxt-app <project-name>
 npm install pinia @pinia/nuxt @nuxtjs/composition-api
 
 
+#طریقه دیگر برای پیاده سازی پروژه
 یکی از روشهای مناسب برای پیاده سازی احراز هویت استفاده از
 nuxt/auth middleware
 و بهره مندی از استراتژی لوکال است
 
-برای فرایندی پروژه تعریف شده مبنی بر نام کاربری و رمز عبور دستی، می بایست
+برای فرایند پروژه تعریف شده مبنی بر نام کاربری و رمز عبور دستی، می بایست
 customScheme
 نوشته می شد
 https://auth.nuxtjs.org/guide/scheme
