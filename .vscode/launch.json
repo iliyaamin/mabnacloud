@@ -1,0 +1,15 @@
+{
+    "resolveSourceMapLocations": [
+        "${workspaceFolder}/**",
+        "!**/node_modules/**"
+    ],
+    "configurations": [
+        {
+            "name": "Nuxt dev",
+            "command": "npm run dev -- -o",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "type": "node-terminal"
+        },
+    ]
+}

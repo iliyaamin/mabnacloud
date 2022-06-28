@@ -1,0 +1,48 @@
+{
+  // svg
+  "svg.preview.background": "transparent",
+  // editor
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": true,
+  "editor.hover.delay": 2000,
+  "editor.tabSize": 4,
+  "editor.minimap.enabled": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "html.autoClosingTags": true,
+  "html.format.wrapLineLength": 200,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "scss.lint.zeroUnits": "warning",
+  "css.lint.zeroUnits": "warning",
+  // "diffEditor.wordWrap": "off",
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/__pycache__": true,
+    "**/.venv": true,
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/__pycache__": true,
+    "**/.venv": true,
+    "**/migrations": true,
+  },
+  // gitlens
+  "gitlens.currentLine.enabled": false,
+  "gitlens.currentLine.pullRequests.enabled": false,
+  "gitlens.currentLine.scrollable": false,
+  "gitlens.statusBar.pullRequests.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+}
